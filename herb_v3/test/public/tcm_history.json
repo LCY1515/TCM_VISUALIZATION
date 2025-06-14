@@ -1,0 +1,304 @@
+[
+  {
+    "era": "远古至夏商西周",
+    "time_range": "远古时代 - 前771年",
+    "summary": "用药知识积累与初步发展",
+    "key_events": [
+      {
+        "id": "EVENT-001",
+        "title": "神农尝百草",
+        "type": "理论突破",
+        "date": "远古时代",
+        "details": {
+          "description": "祖先通过尝试发现动植物药用价值，积累用药知识",
+          "core_theories": [
+            "药食同源"
+          ],
+          "influence": "奠定中医药实践基础"
+        }
+      },
+      {
+        "id": "EVENT-002",
+        "title": "酒与汤液发明",
+        "type": "技术创新",
+        "date": "夏商时期",
+        "details": {
+          "description": "夏代发明酒剂，商代创制汤液，提升药物应用效果",
+          "core_theories": [
+            "药酒制备",
+            "汤剂煎煮"
+          ],
+          "influence": "推动药剂学发展"
+        }
+      },
+      {
+        "id": "EVENT-003",
+        "title": "医学分科制度化",
+        "type": "制度发展",
+        "date": "西周时期",
+        "details": {
+          "description": "设立食医、疾医、疡医、兽医四类专职医师",
+          "core_theories": [
+            "专科医疗"
+          ],
+          "influence": "建立最早医疗分科体系"
+        }
+      }
+    ]
+  },
+  {
+    "era": "春秋战国",
+    "time_range": "前770年-前221年",
+    "summary": "理论体系奠基期",
+    "key_events": [
+      {
+        "id": "EVENT-004",
+        "title": "《黄帝内经》成书",
+        "type": "理论突破",
+        "date": "战国时期",
+        "details": {
+          "description": "建立阴阳五行、经络藏象理论体系",
+          "core_theories": [
+            "阴阳学说",
+            "五行理论",
+            "经络系统"
+          ],
+          "influence": "奠定2000余年中医理论基础"
+        }
+      },
+      {
+        "id": "EVENT-005",
+        "title": "四诊法与疗法体系",
+        "type": "技术创新",
+        "date": "春秋战国",
+        "details": {
+          "description": "应用砭石、针刺、汤药、艾灸、导引等多元治疗手段",
+          "core_theories": [
+            "望闻问切四诊",
+            "外治法体系"
+          ],
+          "influence": "确立中医临床诊疗范式"
+        }
+      }
+    ]
+  },
+  {
+    "era": "秦汉",
+    "time_range": "前221年-220年",
+    "summary": "理论体系系统化",
+    "key_events": [
+      {
+        "id": "EVENT-006",
+        "title": "《黄帝内经》理论完善",
+        "type": "理论突破",
+        "date": "西汉时期",
+        "details": {
+          "description": "系统阐述生理病理及治未病思想，构建中医思维模型",
+          "core_theories": [
+            "整体观念",
+            "治未病",
+            "脏腑经络"
+          ],
+          "influence": "确立中医理论体系框架"
+        }
+      },
+      {
+        "id": "EVENT-007",
+        "title": "《伤寒杂病论》问世",
+        "type": "理论突破",
+        "date": "东汉末年",
+        "details": {
+          "description": "创立六经辨证体系，规范外感与杂病诊疗原则",
+          "core_theories": [
+            "辨证论治",
+            "方剂配伍"
+          ],
+          "influence": "开创临床辨证先河"
+        }
+      },
+      {
+        "id": "EVENT-008",
+        "title": "《神农本草经》辑录",
+        "type": "理论突破",
+        "date": "东汉时期",
+        "details": {
+          "description": "系统总结君臣佐使配伍原则与四气五味药性理论",
+          "core_theories": [
+            "药物分类",
+            "毒性控制"
+          ],
+          "influence": "建立中药学理论体系"
+        }
+      },
+      {
+        "id": "EVENT-009",
+        "title": "麻沸散临床应用",
+        "type": "技术创新",
+        "date": "东汉末年",
+        "details": {
+          "description": "华佗创制世界首个外科麻醉剂，实施腹部手术",
+          "core_theories": [
+            "麻醉技术",
+            "外科手术"
+          ],
+          "influence": "开麻醉手术之先河"
+        }
+      }
+    ]
+  },
+  {
+    "era": "西晋",
+    "time_range": "265年-317年",
+    "summary": "针灸理论系统化",
+    "key_events": [
+      {
+        "id": "EVENT-010",
+        "title": "《针灸甲乙经》编纂",
+        "type": "理论突破",
+        "date": "西晋时期",
+        "details": {
+          "description": "首次系统阐述经络穴位与针刺疗法",
+          "core_theories": [
+            "经络定位",
+            "针刺手法"
+          ],
+          "influence": "奠定针灸学理论基础"
+        }
+      }
+    ]
+  },
+  {
+    "era": "唐代",
+    "time_range": "618年-907年",
+    "summary": "医德与方剂学发展",
+    "key_events": [
+      {
+        "id": "EVENT-011",
+        "title": "大医精诚理念",
+        "type": "制度发展",
+        "date": "唐代",
+        "details": {
+          "description": "孙思邈提出医者需兼备精湛医术与高尚品德",
+          "core_theories": [
+            "医德伦理"
+          ],
+          "influence": "确立中医职业伦理标准"
+        }
+      },
+      {
+        "id": "EVENT-012",
+        "title": "《千金方》集成",
+        "type": "技术创新",
+        "date": "唐代",
+        "details": {
+          "description": "收录6500余首方剂，涵盖临床各科与养生领域",
+          "core_theories": [
+            "方剂配伍",
+            "食疗养生"
+          ],
+          "influence": "集唐以前方剂学之大成"
+        }
+      }
+    ]
+  },
+  {
+    "era": "宋代",
+    "time_range": "960年-1279年",
+    "summary": "中医教育与典籍整理",
+    "key_events": [
+      {
+        "id": "EVENT-013",
+        "title": "太医局设立",
+        "type": "制度发展",
+        "date": "宋代",
+        "details": {
+          "description": "官方设立最高医学教育机构，分科培养专业人才",
+          "core_theories": [
+            "专科教育"
+          ],
+          "influence": "推动中医教育体系化"
+        }
+      },
+      {
+        "id": "EVENT-014",
+        "title": "针灸铜人铸造",
+        "type": "技术创新",
+        "date": "1027年",
+        "details": {
+          "description": "王惟一设计首具经络穴位教学模型",
+          "core_theories": [
+            "直观教学"
+          ],
+          "influence": "开创医学教具新纪元"
+        }
+      },
+      {
+        "id": "EVENT-015",
+        "title": "医籍校勘工程",
+        "type": "制度发展",
+        "date": "宋代",
+        "details": {
+          "description": "系统校订《素问》《伤寒论》等经典医籍",
+          "core_theories": [
+            "文献考据"
+          ],
+          "influence": "保障经典传承准确性"
+        }
+      }
+    ]
+  },
+  {
+    "era": "明代",
+    "time_range": "1368年-1644年",
+    "summary": "药物学创新",
+    "key_events": [
+      {
+        "id": "EVENT-016",
+        "title": "《本草纲目》刊行",
+        "type": "理论突破",
+        "date": "1593年",
+        "details": {
+          "description": "采用析族区类科学分类法，收录1892种药物",
+          "core_theories": [
+            "自然分类法",
+            "药性系统"
+          ],
+          "influence": "推动世界药学发展"
+        }
+      }
+    ]
+  },
+  {
+    "era": "清代",
+    "time_range": "1636年-1912年",
+    "summary": "温病学与解剖学发展",
+    "key_events": [
+      {
+        "id": "EVENT-017",
+        "title": "温病学派形成",
+        "type": "理论突破",
+        "date": "清代",
+        "details": {
+          "description": "叶天士创立卫气营血辨证体系",
+          "core_theories": [
+            "温病传变规律"
+          ],
+          "influence": "完善热病诊疗体系"
+        }
+      },
+      {
+        "id": "EVENT-018",
+        "title": "《医林改错》出版",
+        "type": "技术创新",
+        "date": "1830年",
+        "details": {
+          "description": "王清任通过解剖实践修正传统脏腑认知",
+          "core_theories": [
+            "实证解剖"
+          ],
+          "influence": "促进中西医知识融合"
+        }
+      }
+    ]
+  }
+]

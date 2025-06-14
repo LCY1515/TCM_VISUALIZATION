@@ -1,0 +1,72 @@
+{
+  "name": "vue-multi-app-launcher",
+  "version": "1.0.0",
+  "description": "一个支持多个 Vue 项目一键启动并打包成 exe 的桌面启动器",
+  "main": "electron.js",
+  "author": "Your Name",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start-all": "node start-all.js",
+    "electron": "node_modules/.bin/electron.cmd electron.js",
+    "build-all": "node build-all.js",
+    "pack": "electron-builder",
+    "dist": "npm run build-all && npm run pack"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "sirv": "^2.0.3",
+    "vue": "^3.5.0",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "concurrently": "^9.1.2",
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12",
+    "open": "^10.1.1",
+    "vite": "^6.3.2"
+  },
+  "build": {
+    "appId": "com.yourapp.launcher",
+    "productName": "医道传承",
+    "files": [
+      "electron.js",
+      "assets/**",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "first1/dist",
+        "to": "first1/dist"
+      },
+      {
+        "from": "test/dist",
+        "to": "test/dist"
+      },
+      {
+        "from": "my-project/dist",
+        "to": "my-project/dist"
+      },
+      {
+        "from": "third/dist",
+        "to": "third/dist"
+      }
+    ],
+    "directories": {
+      "output": "dist_electron"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "asar": false
+  }
+}
